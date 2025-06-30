@@ -99,8 +99,8 @@ function showPassedResult(student, symbolNumber) {
   resultMessage.textContent = 'You have passed the entrance exam.';
 
   studentInfo.innerHTML = `
-    <div class="info-item"><span class="info-label">Number:</span> <span>${symbolNumber}</span></div>
-    <div class="info-item"><span class="info-label">Name:</span> <span>${student.name}</span></div>
+    <div class="info-item"><span class="info-label">Symbol Number:</span> <span>${symbolNumber}</span></div>
+    <div class="info-item"><span class="info-label">Student Name:</span> <span>${student.name}</span></div>
     <div class="info-item"><span class="info-label">Group:</span> <span>${student.group}</span></div>
     <div class="info-item"><span class="info-label">Status:</span> <span>✅ PASSED</span></div>
   `;
