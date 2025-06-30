@@ -134,7 +134,7 @@ function showFailedResult(symbolNumber) {
   resultMessage.textContent = 'We’re sorry — your name is not on the list of qualified candidates.';
 
   studentInfo.innerHTML = `
-    <div class="info-item"><span class="info-label">Number:</span> <span>${symbolNumber}</span></div>
+    <div class="info-item"><span class="info-label">Symbol Number:</span> <span>${symbolNumber}</span></div>
     <div class="info-item"><span class="info-label">Status:</span> <span>❌ NOT QUALIFIED</span></div>
   `;
 
