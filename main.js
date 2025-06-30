@@ -116,7 +116,7 @@ function showWaitingResult(student, symbolNumber) {
   resultMessage.textContent = 'Wait for further updates.';
 
   studentInfo.innerHTML = `
-    <div class="info-item"><span class="info-label">Number:</span> <span>${symbolNumber}</span></div>
+    <div class="info-item"><span class="info-label">Symbol Number:</span> <span>${symbolNumber}</span></div>
     <div class="info-item"><span class="info-label">Name:</span> <span>${student.name}</span></div>
     <div class="info-item"><span class="info-label">Group:</span> <span>${student.group}</span></div>
     <div class="info-item"><span class="info-label">Rank:</span> <span>#${student.rank}</span></div>
