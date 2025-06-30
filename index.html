@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sunrise Academy - Entrance Exam Results</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 class="school-name">Sunrise Academy</h1>
+        <p class="tagline">Excellence in Education</p>
+      </header>
+
+      <main class="main-content">
+        <div class="search-section">
+          <h2>Entrance Exam Results</h2>
+          <p class="instruction">Enter your symbol number to check your exam results</p>
+          
+          <form class="search-form" id="searchForm">
+            <div class="input-group">
+              <input 
+                type="text" 
+                id="symbolNumber" 
+                placeholder="Enter your symbol number" 
+                required
+                class="symbol-input"
+              />
+              <button type="submit" class="search-btn">
+                Check Result
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <div class="result-section" id="resultSection" style="display: none;">
+          <div class="result-card" id="resultCard">
+            <div class="result-icon" id="resultIcon"></div>
+            <h3 class="result-title" id="resultTitle"></h3>
+            <p class="result-message" id="resultMessage"></p>
+            <div class="student-info" id="studentInfo"></div>
+          </div>
+          <button class="search-again-btn" id="searchAgain">Search Another Student</button>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <p>&copy; 2025 Sunrise Academy. All rights reserved.</p>
+      </footer>
+    </div>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
