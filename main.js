@@ -117,7 +117,7 @@ function showWaitingResult(student, symbolNumber) {
 
   studentInfo.innerHTML = `
     <div class="info-item"><span class="info-label">Symbol Number:</span> <span>${symbolNumber}</span></div>
-    <div class="info-item"><span class="info-label">Name:</span> <span>${student.name}</span></div>
+    <div class="info-item"><span class="info-label">Student Name:</span> <span>${student.name}</span></div>
     <div class="info-item"><span class="info-label">Group:</span> <span>${student.group}</span></div>
     <div class="info-item"><span class="info-label">Rank:</span> <span>#${student.rank}</span></div>
     <div class="info-item"><span class="info-label">Status:</span> <span>⏳ WAITING</span></div>
