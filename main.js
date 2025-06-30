@@ -23,7 +23,7 @@ const studentDatabase = {
   '166': { group: 'Biology', status: 'passed', name: 'Aditya Gurung' },
   '132': { group: 'Computer', status: 'passed', name: 'Riwaj Lamichanne' },
 
-  '112': { group: 'Biology', status: 'waiting', name: 'Nisha Poudel', rank: 1 },
+  '28': { group: 'Biology', status: 'waiting', name: 'Omraj Poudel', rank: 1 },
   '113': { group: 'Biology', status: 'waiting', name: 'Prakash Dahal', rank: 2 },
   '114': { group: 'Biology', status: 'waiting', name: 'Sunita Pandey', rank: 3 },
   '115': { group: 'Biology', status: 'waiting', name: 'Rajan Chhetri', rank: 4 },
