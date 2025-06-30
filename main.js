@@ -96,7 +96,7 @@ function showPassedResult(student, symbolNumber) {
   resultIcon.className = 'result-icon success';
   resultTitle.textContent = 'Congratulations!';
   resultTitle.className = 'result-title success';
-  resultMessage.textContent = 'You have passed the entrance exam.Kindly visit the school administration to complete your admission by Wednesday.';
+  resultMessage.textContent = 'You have passed the entrance exam. Kindly visit the school administration by Wednesday to complete your admission.';
 
   studentInfo.innerHTML = `
     <div class="info-item"><span class="info-label">Symbol Number:</span> <span>${symbolNumber}</span></div>
