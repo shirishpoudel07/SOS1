@@ -15,7 +15,7 @@ const studentDatabase = {
   '18': { group: 'Computer Science', status: 'waiting', name: 'Maya Rai', rank: 4 },
   '19': { group: 'Computer Science', status: 'waiting', name: 'Bibek Adhikari', rank: 5 },
 
-  '43': { group: 'Biology', status: 'passed', name: 'Shirish Don' },
+  '43': { group: 'Biology', status: 'passed', name: 'Shirish Poudel' },
   '100': { group: 'Biology', status: 'passed', name: 'Khagendra Raj Baral' },
   '103': { group: 'Biology', status: 'passed', name: 'Gita Subedi' },
   '104': { group: 'Biology', status: 'passed', name: 'Krishna Magar' },
