@@ -16,15 +16,15 @@ const studentDatabase = {
   '19': { group: 'Computer Science', status: 'waiting', name: 'Bibek Adhikari', rank: 5 },
 
   '43': { group: 'Biology', status: 'passed', name: 'Shirish Don' },
-  '102': { group: 'Biology', status: 'passed', name: 'Ram Bahadur' },
+  '100': { group: 'Biology', status: 'passed', name: 'Khagendra Raj Baral' },
   '103': { group: 'Biology', status: 'passed', name: 'Gita Subedi' },
   '104': { group: 'Biology', status: 'passed', name: 'Krishna Magar' },
   '105': { group: 'Biology', status: 'passed', name: 'Sushma Bista' },
   '166': { group: 'Biology', status: 'passed', name: 'Aditya Gurung' },
   '132': { group: 'Computer', status: 'passed', name: 'Riwaj Lamichanne' },
 
-  '28': { group: 'Biology', status: 'waiting', name: 'Omraj Poudel', rank: 1 },
-  '113': { group: 'Biology', status: 'waiting', name: 'Prakash Dahal', rank: 2 },
+  '28': { group: 'Biology', status: 'waiting', name: 'Prabhash Paudel', rank: 1 },
+  '113': { group: 'Biology', status: 'waiting', name: 'Bir Singh Budha', rank: 2 },
   '114': { group: 'Biology', status: 'waiting', name: 'Sunita Pandey', rank: 3 },
   '115': { group: 'Biology', status: 'waiting', name: 'Rajan Chhetri', rank: 4 },
   '116': { group: 'Biology', status: 'waiting', name: 'Meera Sapkota', rank: 5 }
