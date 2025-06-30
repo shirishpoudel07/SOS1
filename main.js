@@ -131,7 +131,7 @@ function showFailedResult(symbolNumber) {
   resultIcon.className = 'result-icon danger';
   resultTitle.textContent = 'Not Qualified';
   resultTitle.className = 'result-title danger';
-  resultMessage.textContent = 'Try again next time.';
+  resultMessage.textContent = 'We’re sorry — your name is not on the list of qualified candidates.';
 
   studentInfo.innerHTML = `
     <div class="info-item"><span class="info-label">Number:</span> <span>${symbolNumber}</span></div>
