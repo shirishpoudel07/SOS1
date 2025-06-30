@@ -113,7 +113,7 @@ function showWaitingResult(student, symbolNumber) {
   resultIcon.className = 'result-icon warning';
   resultTitle.textContent = 'You are on the waiting list.';
   resultTitle.className = 'result-title warning';
-  resultMessage.textContent = 'Wait for further updates.';
+  resultMessage.textContent = 'We’ll contact you if a spot opens.';
 
   studentInfo.innerHTML = `
     <div class="info-item"><span class="info-label">Symbol Number:</span> <span>${symbolNumber}</span></div>
