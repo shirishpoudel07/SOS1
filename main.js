@@ -4,7 +4,7 @@ const studentDatabase = {
   '2': { group: 'Computer Science', status: 'passed', name: 'Priya Patel' },
   '3': { group: 'Computer Science', status: 'passed', name: 'Rohit Kumar' },
   '4': { group: 'Computer Science', status: 'passed', name: 'Sneha Gupta' },
-  '5': { group: 'Computer Science', status: 'passed', name: 'Amit Singh' },
+  '5': { group: 'Computer Science', status: 'passed', name: 'Manjila Aryal' },
   '6': { group: 'Computer Science', status: 'passed', name: 'Kavya Reddy' },
   '7': { group: 'Computer Science', status: 'passed', name: 'Rahul Joshi' },
   '8': { group: 'Computer Science', status: 'passed', name: 'Anisha Thapa' },
