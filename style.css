@@ -42,8 +42,8 @@ body {
 }
 
 .school-name {
-  font-size: 3.5rem;
-  font-weight: 700;
+  font-size: 60px;
+  font-weight: 500;
   margin-bottom: 10px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
